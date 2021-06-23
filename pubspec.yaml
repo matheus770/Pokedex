@@ -1,0 +1,35 @@
+name: pokedex_m
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  infinite_widgets: ^2.0.0
+  dartz: ^0.10.0-nullsafety.2
+  dio: ^4.0.0
+  flutter_native_splash: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PokeGoTypes
+      fonts:
+        - asset: lib/assets/fonts/PokeGOTypes.ttf
+    - family: Pokemon Hollow
+      fonts:
+        - asset: lib/assets/fonts/Pokemon Hollow.ttf
+    - family: Pokemon Solid
+      fonts:
+        - asset: lib/assets/fonts/Pokemon Solid.ttf
+        

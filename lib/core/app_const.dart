@@ -1,0 +1,1 @@
+const mAppTitle = 'Pokedex';
